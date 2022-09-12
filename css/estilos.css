@@ -1,0 +1,198 @@
+@font-face {
+    font-family:sans-serif;
+    src: url('big_noodle_titling.ttf');}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+nav {
+    width: 100%;
+    padding: 15px;
+    background-color: #9d76b4;
+    float: left;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav h1 a img {
+    width: 100px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding: 35px 15px;
+}
+
+nav ul li a {
+    background-color: blue;
+    color: rgb(245, 255, 245);
+    padding: 10px;
+    border-radius: 10px;
+    /* margin: 15px; */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: coral;
+    color: rgb(253, 250, 250);
+    background-color: #4eda24;
+    width: 375px;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+header img {
+    width: 100%;
+    border: 5px solid #043474;
+}
+
+.clearfix {
+    overflow: auto;
+    font-family: Big Noodle;
+    font-size: medium;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Grade de Clunas*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+
+footer {
+    background-color:#9d76b4;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(26, 218, 252);
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    background-color: rgb(190, 240, 180);
+}
+
+.center2 {
+    text-align: center;
+}
+
+fieldset{
+    text-align: center;
+    border-radius: 10px;
+    font-family: Big Noodle;
+}
+
+input{
+    text-align: center;
+    background-color: #b3ff9c;
+    border-radius: 20px;
+    width: 80%;
+    height: 30px;
+    font-size: 100%;
+}
+
+button{
+    text-align: center;
+    background-color: #43fa0b;
+    border-radius: 20px;
+    width: 20%;
+    height: 30px;
+    font-size: 100%;
+}
+
+.contato {
+    background-color: white;
+}
+
+.comprar{
+    text-align: center;
+    background-color: #9cdaff;
+    border-radius: 30px;
+    width: 75%;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+}
+
+.form{
+    background-color: white;
+    text-align: left;
+}
+
+
+table{
+    width: 100%;
+  text-align: center;
+}
+
+.title{
+    font-family: Big Noodle;
+    text-align: center;
+}
+
